@@ -1,0 +1,26 @@
+<!-- <div class="note_add border border-1 border-primary rounded-2 p-3 mt-5 ms-5 justify-content-center" style="width: 18rem;">
+    <h2 class="fs-5 mb-3">Add New Note</h2>
+    <input type="text" placeholder="Id" required [(ngModel)]="note.id" class="form-control my-1 ">
+    <input type="text" placeholder="Title" required [(ngModel)]="note.title" class="form-control my-1 ">
+    <input type="text" placeholder="Content" required maxlength="150" [(ngModel)]="note.content" class="form-control my-1 ">
+    <button type="button" class="btn btn-primary btn-sm mt-2" (click)="addNotes()">Save</button>
+</div> -->
+
+<div class="note_add border border-1 border-primary rounded-2 p-3 mt-5 ms-5 justify-content-center" style="width: 18rem;">
+    <h2 class="fs-5 mb-3">Add New Note</h2>
+    <mat-form-field class="input_fields">
+        <mat-label class="input_label">Note Id:</mat-label>
+        <input matInput type="text" placeholder="Note Id" required [(ngModel)]="note.id">
+    </mat-form-field>
+    <mat-form-field class="input_fields">
+        <mat-label class="input_label">Note Title:</mat-label>
+        <input matInput type="text" placeholder="Title" required [(ngModel)]="note.title">
+    </mat-form-field>
+    <mat-form-field class="input_fields">
+        <mat-label class="input_label">Note Content:</mat-label>
+        <input matInput type="text" placeholder="Content" required [(ngModel)]="note.content">
+    </mat-form-field>
+    <button mat-flat-button color="primary" id="saveButton" (click)="addNotes()">Save</button>
+</div>
+
+

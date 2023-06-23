@@ -1,0 +1,25 @@
+<!-- <div class="notes_card  d-inline-flex justify-content-center">
+    <div class="card mx-3 py-2" style="width: 12rem;">
+        <div class="card-body">
+            <p class="card-text fw-semibold fs-5">{{note?.title}}</p>
+            <div class="card-content">
+                <p class="card-text">{{note?.content}}</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<mat-card matRipple class="card notes_card m-1 mb-3 bg-light m-2"style="width: 18rem; height:14rem;">
+    <mat-card-content class="card-body m-0">
+        <p class="card-text text-dark fw-semibold fs-5">{{note?.title}}</p>
+        <p class="card-text text-secondary">{{note?.content}}</p>
+    </mat-card-content>
+<mat-card-actions class="icons">
+    <button mat-icon-button class="text-primary"><mat-icon>comment</mat-icon></button>
+    <button mat-icon-button class="text-primary"><mat-icon>edit</mat-icon></button>
+    <button mat-icon-button class="text-primary"><mat-icon>delete</mat-icon></button>
+    <button mat-icon-button color="primary"><mat-icon>notifications</mat-icon></button>
+</mat-card-actions>
+</mat-card>
+
+   

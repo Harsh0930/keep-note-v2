@@ -1,0 +1,69 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample Note",
+      "content": "This is a sample note added for testing purpose"
+    },
+    {
+      "id": 2,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution development progress - exercise 1 solution is ready, exercise 2 solution will be started"
+    },
+    {
+      "id": 3,
+      "title": "Challenge: TypeScript",
+      "content": "Solution developed, need to submit for evaluation"
+    },
+    {
+      "id": 4,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution reviewed, refactoring is in progress"
+    },
+    {
+      "id": 5,
+      "title": "Challenge: SPA",
+      "content": "Keep Note app solution development in progress. Header design is completed. Code to display notes is in progress."
+    },
+    {
+      "id": "111",
+      "title": "Netflix",
+      "content": "Extraction 2"
+    },
+    {
+      "id": "1118",
+      "title": "Harsh",
+      "content": "Frontend Developer"
+    },
+    {
+      "id": "101",
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:"
+    },
+    {
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:",
+      "id": "FShrN_Y"
+    },
+    {
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:",
+      "id": "MF5zrMa"
+    },
+    {
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:",
+      "id": "Lkt0vrb"
+    },
+    {
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:",
+      "id": "yu1ghAY"
+    },
+    {
+      "title": "Amazon Prime",
+      "content": "Click on the links given below to know more about these Angular Material components:",
+      "id": "49FDyd7"
+    }
+  ]
+}
